@@ -13,8 +13,6 @@ This workshop consists of three half-day sessions, combining lecture and exercis
 
 Participants must have a Mac, a Linux machine, or Windows 10.
 
-The registration fee is $300 for UC students, postdocs, staff and faculty, $450 for Non-UC academic or non-profit participants and $600 for other participants. We accept credit cards, as well as UC Davis recharge accounts, for payment. We are pleased to be able to offer three group pricing bundle options for labs with multiple registrants: 15% off registration for groups of 3-5, 25% off registration for groups of 6-10, and custom instructional packages for groups larger than 10. If you are interested in one of these pricing options, please contact us at training.bioinformatics@ucdavis.edu for a custom coupon code.
-
 
 ### FAQ
 
