@@ -99,6 +99,9 @@ Here are some more ways to make editing previous commands, or novel commands tha
     <up><up>  # go to some previous command, just to have something to work on
     <ctrl-a>  # go to the beginning of the line
     <ctrl-e>  # go to the end of the line
+    # left and right arrow keys will move one character at a time
+    <ctrl-left> # will move one word at a time to the left
+    <ctrl-right> # will move one word at a time to the right
     # now use left and right to move to a single word (surrounded by whitespace: spaces or tabs)
     <ctrl-k>  # delete from here to end of line
     <ctrl-w>  # delete from here to beginning of preceeding word
