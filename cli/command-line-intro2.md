@@ -353,7 +353,7 @@ myQuestions4 = [
     correctAnswer: "a"
   },
   {
-    question: "Use pipes to get characters 640 to 700 in the second line of the genome.fa file:",
+    question: "Use pipes to get nucleotides 640 to 700 from the sequence in the genome.fa file:",
     answers: {
       a: "GCTCGTCGCTGCGTTGAGGCTTGCGTTTATGGTACGCTGGACTTTGTAGGATACCCTCGCT",
       b: "TATTAAGCTCATTCAGGCTTCTGCCGTTTTGGATTTAACCGAAGATGATTTCGATTTTCTG",
