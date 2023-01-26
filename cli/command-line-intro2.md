@@ -353,7 +353,7 @@ myQuestions4 = [
     correctAnswer: "a"
   },
   {
-    question: "Find 'genome.fa' file in the PhiX directory. Use pipes to get characters 640 to 700 in the second line of the file:",
+    question: "Use pipes to get characters 640 to 700 in the second line of the genome.fa file:",
     answers: {
       a: "GCTCGTCGCTGCGTTGAGGCTTGCGTTTATGGTACGCTGGACTTTGTAGGATACCCTCGCT",
       b: "TATTAAGCTCATTCAGGCTTCTGCCGTTTTGGATTTAACCGAAGATGATTTCGATTTTCTG",
