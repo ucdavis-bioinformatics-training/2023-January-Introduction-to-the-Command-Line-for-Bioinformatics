@@ -103,21 +103,21 @@ More grep
 
 Grep is a very powerful tool that has many applications. Grep can be used to find lines in a file that match a pattern, but also you can get lines above and below the matching line as well. The "-A" option to grep is used to specify number of lines after a match and the "-B" option is for number of lines before a match. So, for example, if you wanted to find a particular sequence in a fastq file and also the 3 other lines that form that entire fastq record, you would do this:
 
-    zcat C61_S67_L006_R1_001.fastq.gz | grep -B1 -A2 CACAATGTTTCTGCTGCCTGAACC
+    zcat C61.subset.fq.gz | grep -B1 -A2 CACAATGTTTCTGCTGCCTGAACC
 
 This looks for the sequence "CACAATGTTTCTGCTGCCTGAACC" in the fastq file and then also prints the line before and two lines after each match. 
 
 Another thing grep can do is regular expressions. Regular expressions are a way of specifying a search pattern. Two very useful characters in regular expressions are "^" and "$". The "^" symbol specifies the beginning of a line and the "$" specifies the end of a line. So, for example, if you wanted to find just the lines that began with "TTCCAACACA" you would do this:
 
-    zcat C61_S67_L006_R1_001.fastq.gz | grep ^TTCCAACACA
+    zcat C61.subset.fq.gz | grep ^TTCCAACACA
 
 Without the "^", grep will find any line that has "TTCCAACACA" *anywhere* in the line, not just the beginning. Conversely, if you wanted to find the lines that ended in "TAAACTTA":
 
-    zcat C61_S67_L006_R1_001.fastq.gz | grep TAAACTTA$
+    zcat C61.subset.fq.gz | grep TAAACTTA$
 
 There are also extended regular expression that grep can use to do more complex matches, using the "-E" option:
 
-    zcat C61_S67_L006_R1_001.fastq.gz | grep -E '^TTCCAACACA|TAAACTTA$'
+    zcat C61.subset.fq.gz | grep -E '^TTCCAACACA|TAAACTTA$'
 
 This command will find any line that begins with "TTCCAACACA" **OR** ends with "TAAACTTA". The "\|" character means OR.
 
