@@ -26,7 +26,7 @@ Quiz 5 answers commands
 Day 3 Homework solution
 -----------------------
 
-    cat region.bed | while read line; do START=`echo -n $line | cut -d' ' -f2`; END=`echo -n $line | cut -d' ' -f3`; LEN=`expr $END - $START`; echo $LEN; done
+    cat region.bed | while read line; do START=`echo -n "$line" | cut -f2`; END=`echo -n "$line" | cut -f3`; LEN=`expr $END - $START`; echo $LEN; done
 
     #!/bin/bash
-    cat region.bed | grep -w ^$1 | while read line; do START=`echo -n $line | cut -d' ' -f2`; END=`echo -n $line | cut -d' ' -f3`; LEN=`expr $END - $START`; echo $LEN; done
+    cat region.bed | grep -w ^$1 | while read line; do START=`echo -n "$line" | cut -f2`; END=`echo -n "$line" | cut -f3`; LEN=`expr $END - $START`; echo $LEN; done
